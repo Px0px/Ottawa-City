@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #4b1775;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+button {
+    border: 1px solid #210073;
+    border-radius: 10px;
+    background-color: #3D00D1;
+    cursor: pointer;
+    display: block;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 4rem;
+    inline-size: 8rem;
+    font-size: xx-large;
+    color: white;
+    animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 #3D00D1; }
+    70% { box-shadow: 0 0 0 10px rgba(220,0,0,0); }
+    100% { box-shadow: 0 0 0 0 rgba(220,0,0,0); }
+}
+
+a {
+    text-decoration: none;
+}

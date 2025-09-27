@@ -187,7 +187,7 @@ img{
 .RideauHall a:hover,
 .DowsLake a:hover,
 .GatineauPark a:hover {
-    background-color: white;
+    background-color: rgb(139, 145, 238);
 }
 @media screen and (max-width:1000px){
   .name{
